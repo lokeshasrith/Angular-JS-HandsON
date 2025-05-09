@@ -1,0 +1,11 @@
+<h2>Indian Cricket Players (Drag to Reorder)</h2>
+
+<div class="players-container">
+  <div cdkDropList (cdkDropListDropped)="drop($event)" class="drop-list">
+    <div *ngFor="let player of players">
+      <div cdkDrag class="drag-item">
+        {{ player }}
+      </div>
+    </div>
+  </div>
+</div>

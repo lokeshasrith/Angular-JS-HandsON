@@ -1,0 +1,9 @@
+<h2>Virtual Scrolling Example</h2>
+
+<div class="scroll-container">
+  <cdk-virtual-scroll-viewport itemSize="20" class="viewport">
+    <div *cdkVirtualFor="let num of aiNumbers" class="item">
+      {{ num }}
+    </div>
+  </cdk-virtual-scroll-viewport>
+</div>

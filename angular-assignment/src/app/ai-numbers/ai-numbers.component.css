@@ -1,0 +1,16 @@
+.scroll-container {
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .viewport {
+    height: 100%;
+  }
+  
+  .item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
