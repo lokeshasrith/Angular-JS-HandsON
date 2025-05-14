@@ -1,0 +1,18 @@
+<h2>Reversed String (Pipe Example)</h2>
+<p>Original: Angular</p>
+<p>Reversed: {{ 'Angular' | reverse }}</p>
+ 
+<hr>
+ 
+<h2>Training List (Sorted by Name)</h2>
+<ul>
+  <li *ngFor="let training of sortedTrainings">
+    {{ training.name }} ({{ training.mode }}, {{ training.duration }}) - Request#: {{ training.requestNo }}
+  </li>
+</ul>
+ 
+<hr>
+ 
+<h2>Async Pipe Example (Loaded after 2 seconds)</h2>
+<p>{{ valuePromise | async }}</p>
+ 
